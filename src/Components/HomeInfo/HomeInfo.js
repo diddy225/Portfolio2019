@@ -12,7 +12,7 @@ const HomeInfo = () => {
     >
       <Grid.Row columns={2} style={{ marginBottom: "50px" }}>
         <Grid.Column width={9}>
-          <Header as={"h1"}>FULL-STACK WEB DEVELOPER</Header>
+          <Header as={"h1"} style={{color:'#A0924C'}}>FULL-STACK WEB DEVELOPER</Header>
           <p>
             Web Developer and US Army Veteran with more than 5 years of
             experience getting my hands dirty with coding and electronics. I am
@@ -29,7 +29,7 @@ const HomeInfo = () => {
         </Grid.Column>
 
         <Grid.Column width={3} textAlign="center">
-          <Header as={"h1"}> CONTACT ME </Header>
+          <Header as={'h1'} style={{color:'#A0924C'}}> CONTACT ME </Header>
           <p>
             Feel free to contact me with any questions, opportunities, resume
             requests or anything else you might need!
@@ -48,7 +48,6 @@ const HomeInfo = () => {
               <Icon name="certificate" style={{ color: "#a0924c" }} />
               GEORGIA TECH - FULL STACK CODING BOOTCAMP(GRADUATE)
             </Header>
-            <p>
               <ul className="list">
                 <li>
                   <Icon name="flask" />
@@ -80,7 +79,6 @@ const HomeInfo = () => {
                   Quality Assurance (Writing Tests)
                 </li>
               </ul>
-            </p>
           </Grid.Column>
           <Grid.Column className="experience">
             <Header as="h3">
@@ -120,7 +118,7 @@ const HomeInfo = () => {
 
         <Grid.Column width={3} textAlign="center">
           <Grid.Column className="experience aboutme">
-            <Header as={"h1"}>ABOUT ME</Header>
+            <Header as={"h1"} style={{color:'#A0924C'}}>ABOUT ME</Header>
             <p>
               I have been in technology my entire life. As a kid i would take
               things apart to see how they work. Now, I spend my time
@@ -140,7 +138,7 @@ const HomeInfo = () => {
             </Button>
           </Grid.Column>
           <Grid.Column className="aboutme" style={{ marginBottom: "50px" }}>
-            <Header as="h4">WHAT YOU WILL GET FROM ME</Header>
+            <Header as="h4" style={{color:'#A0924C'}}>WHAT YOU WILL GET FROM ME</Header>
             <p>
               I am very detailed, motivated, and willing to learn. I have
               learned many skills throughout my life. Working with Verizon

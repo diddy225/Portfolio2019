@@ -47,15 +47,20 @@ class NavMenuMobile extends Component {
               <Icon name="home" />
               Home
             </Menu.Item>
-            <Menu.Item as={Link} to='/'>
+            <Menu.Item as={Link} to='/contact'>
               <Icon name="address book outline" />
               Contact Me
             </Menu.Item>
-            <Menu.Item as={Link} to='/'>
+            <Menu.Item 
+              as={'a'}
+              href='http://www.github.com/diddy225'
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Icon name="github" />
               Github
             </Menu.Item>
-            <Menu.Item as={Link} to='/'>
+            <Menu.Item as={Link} to='/resume'>
               <Icon name="newspaper outline" />
               Resume
             </Menu.Item>

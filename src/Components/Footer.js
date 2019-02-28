@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Icon } from "semantic-ui-react";
+import { Icon } from "semantic-ui-react";
 const style = {
   backgroundColor: "#000",
   height: "150px",
@@ -12,15 +12,14 @@ const Footer = () => {
   return (
     <div style={style}>
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-          <Icon size="big" name="github" />
+          <Icon style={{color:'#fff'}} size="big" name="github" />
         </a>
         <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-          <Icon size="big" name="linkedin"/>
+          <Icon style={{color:'#fff'}} size="big" name="linkedin"/>
         </a>
-        <Header style={{color: '#fff'}}as='h5'>
-          <Icon name="copyright outline"/>
-          2019 Matthew Carpenter Made in Atlanta
-        </Header>
+        <p style={{color: '#fff', marginTop:'20px'}}>
+          <Icon name="copyright outline"/>2019 Matthew Carpenter Made in <span style={{color: '#A81930'}}>Atlanta</span>
+        </p>
     </div>
   );
 };
