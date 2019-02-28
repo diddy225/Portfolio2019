@@ -1,0 +1,20 @@
+/*Jumbotron Styles*/
+.containerStyle {
+  background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 550px;
+  padding: 1em 1em;
+}
+
+div.ui.fluid.container.pushable.containerStyle {
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+
+
+.header-box {
+  margin: 225px auto;
+  width: 50%;
+}
