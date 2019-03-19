@@ -12,9 +12,11 @@ const HomeInfo = () => {
     >
       <Grid.Row columns={2} style={{ marginBottom: "50px" }}>
         <Grid.Column width={9}>
-          <Header as={"h1"} style={{color:'#A0924C'}}>FULL-STACK WEB DEVELOPER</Header>
+          <Header as={"h1"} style={{ color: "#A0924C" }}>
+            FULL-STACK WEB DEVELOPER
+          </Header>
           <p>
-            Web Developer and US Army Veteran with more than 5 years of
+            Web Developer and US Army Veteran with more than 3 years of
             experience getting my hands dirty with coding and electronics. I am
             a graduate of General Assembly’s Front End Web Development Course,
             and Georgia Tech’s Full Stack Coding Bootcamp. I have experience
@@ -29,12 +31,20 @@ const HomeInfo = () => {
         </Grid.Column>
 
         <Grid.Column width={3} textAlign="center">
-          <Header as={'h1'} style={{color:'#A0924C'}}> CONTACT ME </Header>
+          <Header as={"h1"} style={{ color: "#A0924C" }}>
+            {" "}
+            CONTACT ME{" "}
+          </Header>
           <p>
             Feel free to contact me with any questions, opportunities, resume
             requests or anything else you might need!
           </p>
-          <Button as={'a'} href="mailto:matthew.j.carpenter1@gmail.com" basic style={{ width: "250px" }}>
+          <Button
+            as={"a"}
+            href="mailto:matthew.j.carpenter1@gmail.com"
+            basic
+            style={{ width: "250px" }}
+          >
             Email
           </Button>
         </Grid.Column>
@@ -48,37 +58,37 @@ const HomeInfo = () => {
               <Icon name="certificate" style={{ color: "#a0924c" }} />
               GEORGIA TECH - FULL STACK CODING BOOTCAMP(GRADUATE)
             </Header>
-              <ul className="list">
-                <li>
-                  <Icon name="flask" />
-                  Computer Science applied to JavaScript
-                </li>
-                <li>
-                  <Icon name="database" />
-                  Databases (MySQL, MongoDB)
-                </li>
-                <li>
-                  <Icon name="server" />
-                  Server Side Development (Node.js, Express, MERN Stack)
-                </li>
-                <li>
-                  <Icon name="computer" />
-                  Browser Based Technologies (HTML, CSS, Javascript, Jquery,
-                  Bootstrap)
-                </li>
-                <li>
-                  <Icon name="reply" />
-                  Deployement (Heroku, Git)
-                </li>
-                <li>
-                  <Icon name="microsoft" />
-                  C# (ASP.Net)
-                </li>
-                <li>
-                  <Icon name="write" />
-                  Quality Assurance (Writing Tests)
-                </li>
-              </ul>
+            <ul className="list">
+              <li>
+                <Icon name="flask" />
+                Computer Science applied to JavaScript
+              </li>
+              <li>
+                <Icon name="database" />
+                Databases (MySQL, MongoDB)
+              </li>
+              <li>
+                <Icon name="server" />
+                Server Side Development (Node.js, Express, MERN Stack)
+              </li>
+              <li>
+                <Icon name="computer" />
+                Browser Based Technologies (HTML, CSS, Javascript, Jquery,
+                Bootstrap)
+              </li>
+              <li>
+                <Icon name="reply" />
+                Deployement (Heroku, Git)
+              </li>
+              <li>
+                <Icon name="microsoft" />
+                C# (ASP.Net)
+              </li>
+              <li>
+                <Icon name="write" />
+                Quality Assurance (Writing Tests)
+              </li>
+            </ul>
           </Grid.Column>
           <Grid.Column className="experience">
             <Header as="h3">
@@ -107,6 +117,7 @@ const HomeInfo = () => {
           <Grid.Column className="experience">
             <Header as="h3">MY SKILLS</Header>
             <p>
+              Currently Learning: Docker/K8S, RabbitMQ, Golang <br/><br/>
               HTML5 | CSS3 | Javascript | jQuery | NodeJS | REST| Express |
               MongoDB | EJS | AJAX | Bootstrap| GIT | | Github | Media Queries |
               JSON | API | The Command Line(Bash) | Computer Science
@@ -118,13 +129,16 @@ const HomeInfo = () => {
 
         <Grid.Column width={3} textAlign="center">
           <Grid.Column className="experience aboutme">
-            <Header as={"h1"} style={{color:'#A0924C'}}>ABOUT ME</Header>
+            <Header as={"h1"} style={{ color: "#A0924C" }}>
+              ABOUT ME
+            </Header>
             <p>
-              I have been in technology my entire life. As a kid i would take
-              things apart to see how they work. Now, I spend my time
-              engineering websites and applications. I enjoy learning, it keeps
-              the mind sharp. The best way for me to learn is by doing, I also
-              enjoy learning new things from others.
+              I have been in technology my entire life. I spent 8 years in the
+              U.S. Army, as a system administrator. While in the military, I
+              also worked for Verizon Wireless in various roles. I am a recent
+              graduate of the Georgia Tech Coding Bootcamp where we focused on
+              the MERN stack, I also possess a certificate of completion from
+              General Assembly Front End Web Developer course.
             </p>
             <Button
               as={"a"}
@@ -138,13 +152,15 @@ const HomeInfo = () => {
             </Button>
           </Grid.Column>
           <Grid.Column className="aboutme" style={{ marginBottom: "50px" }}>
-            <Header as="h4" style={{color:'#A0924C'}}>WHAT YOU WILL GET FROM ME</Header>
+            <Header as="h4" style={{ color: "#A0924C" }}>
+              WHAT YOU WILL GET FROM ME
+            </Header>
             <p>
               I am very detailed, motivated, and willing to learn. I have
               learned many skills throughout my life. Working with Verizon
-              Wireless for 13 years, I have management skills as well as a sales
-              background. I love to motivate and learn from others. I without a
-              doubt would be a great asset to any company or team.
+              Wireless and The U.S. Army for 13 years, I have management skills
+              as well as a sales background. I consistanly push myself to learn
+              new technology and use those skills to build new things.
             </p>
           </Grid.Column>
         </Grid.Column>

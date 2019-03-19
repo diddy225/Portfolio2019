@@ -26,12 +26,12 @@ class NavMenu extends Component {
           active={activeItem === 'home'} 
           onClick={this.handleItemClick}
         />
-        <Menu.Item 
+        {/* <Menu.Item 
           name='contact'
           as={Link} to='/contact'
           active={activeItem === 'contact'}
           onClick={this.handleItemClick}
-        />
+        /> */}
         <Menu.Item 
           name='github'
           as={'a'} 
@@ -41,12 +41,12 @@ class NavMenu extends Component {
           active={activeItem === 'github'}
           onClick={this.handleItemClick}
         />
-        <Menu.Item 
+        {/* <Menu.Item 
           name='resume'
           as={Link} to='/resume'
           active={activeItem === 'resume'}
           onClick={this.handleItemClick}
-        />
+        /> */}
         <Menu.Item 
           position="right"
           as={Link} to='/'

@@ -47,10 +47,10 @@ class NavMenuMobile extends Component {
               <Icon name="home" />
               Home
             </Menu.Item>
-            <Menu.Item as={Link} to='/contact'>
+            {/* <Menu.Item as={Link} to='/contact'>
               <Icon name="address book outline" />
               Contact Me
-            </Menu.Item>
+            </Menu.Item> */}
             <Menu.Item 
               as={'a'}
               href='http://www.github.com/diddy225'
@@ -60,10 +60,10 @@ class NavMenuMobile extends Component {
               <Icon name="github" />
               Github
             </Menu.Item>
-            <Menu.Item as={Link} to='/resume'>
+            {/* <Menu.Item as={Link} to='/resume'>
               <Icon name="newspaper outline" />
               Resume
-            </Menu.Item>
+            </Menu.Item> */}
           </Sidebar>
       </div>
     );
