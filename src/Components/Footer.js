@@ -18,7 +18,7 @@ const Footer = () => {
           <Icon style={{color:'#fff'}} size="big" name="linkedin"/>
         </a>
         <p style={{color: '#fff', marginTop:'20px'}}>
-          <Icon name="copyright outline"/>2019 Matthew Carpenter Made in <span style={{color: '#A81930'}}>Atlanta</span>
+          <Icon name="copyright outline"/>2019 Matthew Carpenter Made in &nbsp; <span style={{color: '#A81930'}}>Atlanta</span> with React
         </p>
     </div>
   );
