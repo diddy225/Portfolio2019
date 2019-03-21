@@ -47,10 +47,15 @@ class NavMenuMobile extends Component {
               <Icon name="home" />
               Home
             </Menu.Item>
-            {/* <Menu.Item as={Link} to='/contact'>
-              <Icon name="address book outline" />
-              Contact Me
-            </Menu.Item> */}
+            <Menu.Item 
+              as={'a'} 
+              href='http://www.linkedin.com/in/matthew-carpenter-23125081'
+              rel="noopener noreferrer"
+              target="_blank"
+              >              
+              <Icon name="linkedin" />
+              Linkedin
+            </Menu.Item>
             <Menu.Item 
               as={'a'}
               href='http://www.github.com/diddy225'

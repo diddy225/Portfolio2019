@@ -26,12 +26,15 @@ class NavMenu extends Component {
           active={activeItem === 'home'} 
           onClick={this.handleItemClick}
         />
-        {/* <Menu.Item 
-          name='contact'
-          as={Link} to='/contact'
-          active={activeItem === 'contact'}
+        <Menu.Item 
+          name='linkedin'
+          as={'a'} 
+          href='http://www.linkedin.com/in/matthew-carpenter-23125081'
+          rel="noopener noreferrer"
+          target="_blank"
+          active={activeItem === 'linkedin'}
           onClick={this.handleItemClick}
-        /> */}
+        />
         <Menu.Item 
           name='github'
           as={'a'} 

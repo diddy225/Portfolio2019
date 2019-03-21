@@ -197,7 +197,7 @@ const HomeInfo = () => {
       <Header style={{ textAlign: "center", textDecoration: "underline" }}>
         PROJECTS
       </Header>
-      <Card.Group centered itemsPerRow="5" style={{ marginBottom: "20px" }}>
+      <Card.Group stackable centered itemsPerRow="5" style={{ marginBottom: "20px" }}>
         {projectInfo}
       </Card.Group>
     </div>
