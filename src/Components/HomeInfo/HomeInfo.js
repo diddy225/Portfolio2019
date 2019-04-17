@@ -7,11 +7,12 @@ import "./homeinfo.css";
 const projectInfo = portfolioInfo.map(project => {
   return (
     <ProjectCard 
+      key={project.name}
       name={project.name}
       year={project.year}
       url={project.url}
       description={project.description}
-      icon={project.icons.map(icon => <Icon name={icon}/>)}
+      icon={project.icons.map(icon => <Icon key={icon} name={icon}/>)}
     />
   )
 })
