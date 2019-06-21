@@ -28,10 +28,6 @@ app.get('/', function (req, res) {
   res.send('hello world')
 })
 
-https.createServer({
-  key: fs.readFileSync('server.key'),
-  cert: fs.readFileSync('server.cert')
-}, app)
-.listen(PORT, function () {
+app.listen(PORT, function () {
   console.log('App is now running on localhost port:' + PORT)
 })
